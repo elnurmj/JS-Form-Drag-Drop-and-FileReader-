@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/file-reader.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row mt-5 justify-content-center">
+            <div class="upload-area">
+                <i class="fas fa-cloud-download-alt" id="upload"></i>
+                <input type="file" multiple style="display: none;" accept="image/*">
+            </div>
+                <table class="table mt-3" id="table">
+                    <thead>
+                      <tr>
+                        <th scope="col">Image</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Type</th>
+                        <th scope="col">Size</th>
+                      </tr>
+                    </thead>
+                    <tbody></tbody>
+                  </table>
+            
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/56f531c85f.js" crossorigin="anonymous"></script>
+    <script src="./assets/js/file-reader.js"></script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+.upload-area{
+    background-color: cadetblue;
+    margin-top: 50px;
+    height: 500px;
+    width: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+#upload{
+    font-size: 70px;
+    cursor: pointer;
+    color: brown;
+    transition: all 0.3s;
+}
+#upload:hover{
+    color: gray;
+}
+body{
+    background-color:bisque;
+}

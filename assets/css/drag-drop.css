@@ -1,0 +1,26 @@
+.item{
+    width: 250px;
+    height: 167px;
+}
+
+#drag-elem1{
+    background-color: hotpink;
+}
+
+#drag-elem2{
+    background-color: bisque;
+}
+
+#drag-elem3{
+    background-color: cadetblue;
+}
+
+#drop-area{
+    margin-right: 500px;
+    margin-top: 250px;
+    width: 700px;
+    height: 500px;
+    background-color: cornflowerblue;
+    float: right;
+    display: flex;
+}
